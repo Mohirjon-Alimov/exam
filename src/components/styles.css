@@ -1,0 +1,114 @@
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	/* src: url('HelveticaNeueCyr-Medium.eot'); */
+	src: local('HelveticaNeueCyr-Medium'),
+		url('../assets/fonts/HelveticaNeueCyr-Medium.eot') format('embedded-opentype'),
+		url('../assets/fonts/HelveticaNeueCyr-Medium.woff') format('woff'),
+		url('../assets/fonts/HelveticaNeueCyr-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	/* src: url('HelveticaNeueCyr-Black.eot'); */
+	src: local('HelveticaNeueCyr-Black'),
+		url('../assets/fonts/HelveticaNeueCyr-Black.eot') format('embedded-opentype'),
+		url('../assets/fonts/HelveticaNeueCyr-Black.woff') format('woff'),
+		url('../assets/fonts/HelveticaNeueCyr-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	/* src: url('HelveticaNeueCyr-Light.eot'); */
+	src: local('HelveticaNeueCyr-Light'),
+		url('../assets/fonts/HelveticaNeueCyr-Light.eot') format('embedded-opentype'),
+		url('../assets/fonts/HelveticaNeueCyr-Light.woff') format('woff'),
+		url('../assets/fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: RotterburgDisplayFont;
+  font-style: normal;
+  src: url(../assets/fonts/RotterburgDisplayFont.otf);
+}
+
+@font-face {
+  font-family: Steinbeck;
+  font-style: normal;
+  src: url(../assets/fonts/SteinbeckFC-Reg.otf);
+}
+.peson-logo {
+  position: absolute;
+  right: 16px;
+}
+.darkLogo {
+	color: #C9AC8C;
+}
+.header {
+  height: 80px;
+  padding: 0 65px;
+}
+.logo-link {
+  font-family: RotterburgDisplayFont;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 144.4%;
+	text-decoration: none;
+}
+
+.nav-link-list a {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 144.4%;
+	text-decoration: none;
+	margin-right: 25px;
+}
+.category-list a {
+	font-family: 'Steinbeck';
+	font-style: normal;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+}
+.lightLink {
+	color: #191919;
+}
+.darkLink {
+	color: #ffffff;
+}
+.darkHeader {
+	background-color: #191919;
+}
+.darkBtn {
+	background-color: rgb(255, 255, 255, 0.4);
+}
+.category-link-dark {
+	color: #C9AC8C;
+	text-decoration: none;
+}
+.category-link-light {
+	color: #191919;
+	text-decoration: none;
+}
+.darkItem {
+	background-image: linear-gradient(209.09deg, #191919 -1.68%, #212121 135.36%);
+}
+.darkTitle {
+	color: #C9AC8C;
+}
+.lightTitle {
+	color: #191919;
+}
+.date {
+	color: #212121;
+}
+.darkDate {
+	color: rgba(255, 255, 255, 0.603);
+}

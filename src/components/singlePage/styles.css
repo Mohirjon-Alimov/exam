@@ -1,0 +1,72 @@
+.authorWrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/img/bg.svg);
+  background-position: right, bottom;
+  background-repeat: no-repeat;
+}
+.darkDate,
+.darkBio {
+  color: rgba(255, 255, 255, 0.8);
+}
+.lightDate,
+.lightBio,
+.lightName {
+  color: #242424;
+}
+.darkName,
+.darkHeading {
+  color: #c9ac8c;
+}
+.lightLink {
+  color: #242424;
+  font-weight: 600;
+  font-size: 20px;
+}
+.darkLink {
+  color: #c9ac8c;
+  font-weight: 600;
+  font-size: 20px;
+}
+.lightHeading,
+.lightText {
+  color: #191919;
+}
+.darkText {
+  color: rgba(255, 255, 255, 0.6);
+}
+.darkText span {
+  font-family: Steinbeck;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.lightText span {
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+.descriptionBox {
+  max-width: 780px;
+  height: 220px;  
+  border-radius: 20px;
+}
+.descriptionBox::before, .exceptBox::before {
+  content: url(../../assets/img/quotes.png);
+  position: absolute;
+  top: -15px;
+  left: 20px;
+}
+.lightDescriptionBox, .lightExceptBox {
+  background-color: #ffffff;
+}
+.darkDescriptionBox, .darkExceptBox {
+  background-color: #242424;
+}
+.exceptBox {
+  max-width: 650px;
+  height: 220px;  
+  border-radius: 20px;
+}
