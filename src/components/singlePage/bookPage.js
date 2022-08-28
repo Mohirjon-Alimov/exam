@@ -32,7 +32,7 @@ export const BookPage = ({ modal, setModal }) => {
       .then((res) => res.json())
       .then((books) => setBook(books))
       .catch((err) => console.log(err));
-  }, [book]);
+  }, [book, title]);
 
   useEffect(() => {
     axios
@@ -45,7 +45,7 @@ export const BookPage = ({ modal, setModal }) => {
         }
       )
       .then((res) => setName(res.data));
-  }, [value]);
+  }, [value, token]);
 
   return (
     <>

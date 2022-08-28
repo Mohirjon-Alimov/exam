@@ -6,7 +6,6 @@ import { LangContext } from "../context/langContext";
 import { ThemeContext } from "../context/themeContext";
 import CustomImg from "../assets/img/book.png";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../hooks/useAuth";
 import { AuthContext } from "../context/authContext";
 
 export const AddBook = () => {

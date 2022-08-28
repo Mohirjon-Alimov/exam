@@ -23,7 +23,7 @@ export const Account = () => {
         setAccount(res.data);
       })
       .catch(err => console.log(err))
-  }, []);
+  }, [token]);
 
   const firstName = useRef("");
   const lastName = useRef("");

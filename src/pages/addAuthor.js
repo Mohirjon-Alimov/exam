@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useContext, useEffect, useRef } from "react";
+import { useContext, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { Lang } from "../components/lang/lang";
